@@ -1,0 +1,38 @@
+---
+title: Credict Card Default Predictor
+subtitle: Raul Aguilar
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  pdf_document:
+    toc: true
+    toc_depth: 4
+---
+
+```{r setup, include=FALSE}
+library(knitr, quietly = TRUE)
+library(tidyverse, quietly = TRUE)
+library(tibble, quietly = TRUE)
+options(warn = -1)
+```
+
+
+\newpage
+
+# Summary
+
+# Data description and processing
+
+# Feauture engineering
+
+# Modeling
+
+# Feature selection
+
+# Hyperparamete optimization
+
+# Model selection
+
+# Model exlainability 
+
+# Results in test set 
+
