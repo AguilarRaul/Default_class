@@ -53,7 +53,7 @@ The data set is public and can be found in [kaggle](https://www.kaggle.com/uciml
 
 ## Results
 
-Report in process, please go to [Notebook](https://github.com/Default_class/blob/main/notebooks/complete_pipeline.ipynb) for temporary results.
+Report in process, please go to [Notebook](https://github.com/AguilarRaul/Default_class/blob/main/notebooks/complete_pipeline.ipynb) for temporary results.
 
 ## Dependencies
 
