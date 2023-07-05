@@ -1,0 +1,19 @@
+name: default_credit
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ipykernel
+  - ipywidgets
+  - requests
+  - r-tidyverse
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - altair_saver
+  - eli5
+  - shap
+  - lightgbm
+  - scikit-learn>=1.0
