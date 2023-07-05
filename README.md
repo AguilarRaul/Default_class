@@ -41,20 +41,13 @@ This dataset contains information on default payments, demographic factors, cred
 | BILL_AMT4                | float64  |Amount of bill statement in June, 2005 (NT dollar)|
 | BILL_AMT5                |float64  |Amount of bill statement in May, 2005 (NT dollar)|
 | BILL_AMT6                | float64  | Amount of bill statement in April, 2005 (NT dollar)|
-| PAY_AMT1                | float64 |  Amount of previous payment in September, 2005 (NT dollar)
-|
-| PAY_AMT2               | float64  |Amount of previous payment in August, 2005 (NT dollar)
-|
-| PAY_AMT3                | float64 | Amount of previous payment in July, 2005 (NT dollar)
-|
-| PAY_AMT4                | float64  |  Amount of previous payment in June, 2005 (NT dollar)
-|
-| PAY_AMT5                | float64 |  Amount of previous payment in May, 2005 (NT dollar)
-|
-| PAY_AMT6                | float64 |  Amount of previous payment in April, 2005 (NT dollar)
-|
-| default.payment.next.month  | int64 | Default payment (1=yes, 0=no)
-|
+| PAY_AMT1                | float64 |  Amount of previous payment in September, 2005 (NT dollar)|
+| PAY_AMT2               | float64  |Amount of previous payment in August, 2005 (NT dollar)|
+| PAY_AMT3                | float64 | Amount of previous payment in July, 2005 (NT dollar)|
+| PAY_AMT4                | float64  |  Amount of previous payment in June, 2005 (NT dollar)|
+| PAY_AMT5                | float64 |  Amount of previous payment in May, 2005 (NT dollar)|
+| PAY_AMT6                | float64 |  Amount of previous payment in April, 2005 (NT dollar)|
+| default.payment.next.month  | int64 | Default payment (1=yes, 0=no)|
 
 The data set is public and can be found in [kaggle](https://www.kaggle.com/uciml/default-of-credit-card-clients-dataset).
 
@@ -69,12 +62,11 @@ To run the report locally, install the project dependencies by following these s
 1. Clone this repository to your local directory.
 
 2. I created an environment fie: `environment.yaml`. To execute it, go to the root of this repository and run:
+   
+        conda env create -f environment.yaml
 
-    ``` bash
-    conda env create -f environment.yaml
-    ```
 
-3. Activate it by running:
+4. Activate it by running:
 
         conda activate default_credit
 
@@ -87,6 +79,7 @@ After installing the [dependencies](#dependencies) listed above.
 1. Open command line and navigate to the root directory the local repository.
 
 2. Run
+   
         make all
 
 To reset the local repository to a clean state, with no intermediate files or results files:
@@ -94,6 +87,7 @@ To reset the local repository to a clean state, with no intermediate files or re
 1. Open command line and navigate to the root directory the repository.
 
 2. Run
+   
         make clean
 
 ## Contributing
