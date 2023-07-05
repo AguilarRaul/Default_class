@@ -23,6 +23,20 @@ train_df, test_df = train_test_split(
 
 # Pre processing, after EDA
 def recategorize_column(df, column, to_replace, replacement):
+    """
+    Recategorizes values in a specific column of the DataFrame.
+
+    Replaces specified values in the given column with new values.
+
+    Args:
+        df (pandas.DataFrame): Input DataFrame.
+        column (str): Name of the column to be recategorized.
+        to_replace: Value or list of values to be replaced.
+        replacement: New value or list of new values to replace the to_replace values.
+
+    Returns:
+        pandas.DataFrame: DataFrame with the specified values replaced in the given column.
+    """
     df[column] = df[column].replace(to_replace, replacement)
 
 
